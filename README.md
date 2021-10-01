@@ -6,6 +6,12 @@ Rating service has been developed on NodeJS
 
 MIT License
 
+## How to run
+
+```bash
+node ratings.js 8080
+```
+
 ## How to run with Docker
 
 ```bash
@@ -23,9 +29,10 @@ docker run -d --name ratings -p 8080:8080 --link mongodb:mongodb \
 
 * Test with path `/ratings/1` and `/health`
 
-## How to run
+## How to run with Docker Compose
 
 ```bash
-node ratings.js 8080
+docker-compose up
 ```
+
 [Opsta (Thailand) Co., Ltd.](https://www.opsta.co.th)
