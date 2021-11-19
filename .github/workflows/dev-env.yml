@@ -12,6 +12,7 @@ jobs:
       # - run: docker build -t ghcr.io/iceevil4/bookinfo-ratings:dev .
       # - run: echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
       # - run: docker push ghcr.io/iceevil4/bookinfo-ratings:dev
+      # Test Push
       - name: Login to GitHub Container Registry
         uses: docker/login-action@v1
         with:
